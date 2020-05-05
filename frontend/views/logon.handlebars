@@ -1,0 +1,47 @@
+<style type="text/css">
+	.logon-container{
+	width: 100%;
+	max-width: 1120px;
+	height: 100vh;
+	margin: 0 auto;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logon-container section.form{
+	width: 100%;
+	max-width: 350px;
+	margin-right: 30px;
+}
+
+.logon-container section.form form{
+	margin-top: 100px;
+}
+
+.logon-container section.form form h1{
+	font-size: 32px;
+	margin-bottom: 32px;
+}
+
+.icon-login{
+	width: 16px;
+	margin-right: 10px;
+}
+
+</style>
+<div class="logon-container">
+	<section class="form">
+		<img src="/img/logo.svg" alt="Be the Hero" >
+		<form action="/sessions" method="POST">
+			<h1>Faça seu logon</h1>
+			<input name="id" placeholder="Sua ID">
+			<button type="submit" class="button">Entrar</button>
+		</form>
+		<a class="back-link" href="/register">
+			<img class="icon-login" src="/icons/log-in">Não tenho cadastro
+		</a>
+	</section>
+	<img src="/img/heroes.png" alt="Heroes" >
+</div>

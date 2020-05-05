@@ -1,0 +1,20 @@
+{
+  "name": "frontend02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express-handlebars": "^4.0.0",
+    "intl": "^1.2.5",
+    "node-localStorage": "0.0.1",
+    "node-localstorage": "^2.1.5"
+  }
+}

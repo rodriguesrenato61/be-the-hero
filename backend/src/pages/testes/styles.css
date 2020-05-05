@@ -1,0 +1,12 @@
+.form-input{
+	width: 350px;
+	height: 30px;
+	font-size: 15pt;
+}
+
+.btn-enviar{
+	width: 150px;
+	height: 30px;
+	font-size: 15pt;
+	text-align: center;
+}

@@ -1,0 +1,120 @@
+<style type="text/css">
+
+	.container{
+		display: flex;
+		padding-horizontal: 24px;
+		/*padding-top: Constants.statusBarHeight + 20*/
+	}
+	
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.incident{
+		padding: 24;
+		border-radius: 8;
+		background-color: #FFF;
+		margin-botton: 16px;
+		margin-top: 48px;
+	}
+	
+	.incidentProperty{
+		font-size: 14px;
+		color: #41414d;
+		font-weight: bold;
+		margin-top: 24;
+	}
+	
+	.incidentValue{
+		margin-top: 8px;
+		font-size: 15px;
+		margin-bottom: 24px;
+		color: #737380;
+	}
+	
+	.contactBox{
+		padding: 24;
+		border-radius: 8;
+		background-color: #FFF;
+		margin-botton: 16;
+	}
+	
+	.heroTitle{
+		font-weight: bold;
+		font-size: 20px;
+		color: #13131a;
+		line-height: 30px;
+	}
+	
+	.heroDescription{
+		font-size: 15px
+		color: #737380;
+		margin-top: 16px;
+	}
+	
+	.actions{
+		margin-top: 16px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	.action{
+		background-color: #e02041;
+		border-radius: 8;
+		height: 50px;
+		width: 48%;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.actionText{
+		color: #FFF;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.incidentProperty-ong{
+		margin-top: 0;
+	}
+	
+
+</style>
+<div class="container">
+	<div class="header">
+		<img src="/img/logo.svg">
+		<a href="/">
+			<img src="icons/arrow-left">
+		</a>
+	</div>	
+	<div class="incident">
+	
+		<strong class="incidentProperty-ong">ONG:</strong>
+		<p class="incidentValue">{{ong}} de {{city}}/{{uf}}</p>
+					
+		<strong class="incidentProperty">CASO:</p>
+		<p class="incidentValue">{{title}}</p>
+					
+		<strong class="incidentProperty">VALOR:</strong>
+		<p class="incidentValue">R$ 120,00</p>
+	</div>
+			
+	<div class="contactBox">
+		<strong class="heroTitle">Salve o dia!</strong>
+		<strong class="heroTitle">Seja o herói desse caso.</strong>
+		
+		<p class="heroDescription">Entre em contato:</p>
+				
+		<div class="actions">
+			<!--
+			<TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
+			-->	<p class="actionText">WhatsApp</p>
+				<!--	</TouchableOpacity> -->
+					<!--
+					<TouchableOpacity style={styles.action} onPress={sendEmail}>
+						--> <p class="actionText">Email</p>
+					<!-- </TouchableOpacity> -->
+		</div>
+	</div>
+</div>
