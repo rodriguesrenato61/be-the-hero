@@ -29,7 +29,7 @@ module.exports = {
       connection: {
         host: 'localhost',
         user: 'root',
-        password: 'd3s1p6g6',
+        password: '',
         database: 'be-the-hero'
       },
       useNullAsDefault: true
