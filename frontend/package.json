@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
-    "express-handlebars": "^4.0.0",
+    "express-handlebars": "^5.3.1",
     "intl": "^1.2.5",
     "node-localStorage": "0.0.1",
     "node-localstorage": "^2.1.5"
